@@ -1,6 +1,6 @@
 import axios from "axios";
 import { User } from "../models/UserModel";
-const URL = "https://627fe5d97532b4920f69de5e.mockapi.io/";
+const URL = "https://649f0c7a245f077f3e9d4910.mockapi.io/";
 
 async function getUsers(): Promise<User[]> {
   const response = await axios.get<User[]>(`${URL}users`);
